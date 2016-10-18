@@ -1,6 +1,6 @@
 'use strict';
 
-const handle = require('../handle/handle');
+const handle = require('../../tools/handle/handle');
 
 module.exports = function (paramGroup) {
     return function (req, res, next) {

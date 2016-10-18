@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const handle = require('../../tools/handle/handle');
-const reqValidator = require('../../tools/reqValidator/reqValidator');
+const reqValidator = require('../../middlewares/reqValidator/reqValidator');
 const validateGroup = require('../../tools/validateGroup/validateGroup');
 
 /*
